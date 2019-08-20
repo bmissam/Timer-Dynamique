@@ -53,7 +53,7 @@ class App extends React.Component {
 
    
      return <div> 
-        <span>{h} : {m} : {s} </span>
+        <span>{String(h).padStart(2,0)} : {String(m).padStart(2,0)} : {String(s).padStart(2,0)} </span>
      </div>
   }
       
